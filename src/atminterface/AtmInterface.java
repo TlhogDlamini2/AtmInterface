@@ -69,6 +69,10 @@ public class AtmInterface{
                 getTransactionHistory();
                 System.out.println("-----------------------------------------------------------------------");
                 break;
+             
+            case 5:
+                System.out.println("Thank you, Goodbye!");
+                break;
                 
             default:
                 System.out.println("Invalid option:\n\n");
